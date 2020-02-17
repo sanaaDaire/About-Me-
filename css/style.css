@@ -1,0 +1,33 @@
+
+
+
+
+h1 { text-align: center;
+    color: aqua;
+    background-color: beige; 
+    border: 30px ; 
+    padding: 30px; 
+    height: 60px;
+}
+
+body {
+color: blueviolet;
+background-color: beige;
+padding: 20px;
+height:500px ;
+
+}
+ul li {
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+    height: 40px;
+}
+p {
+    text-align: left;
+    text-decoration: none;
+    color:black;
+    height: 40px;
+}
+
+
