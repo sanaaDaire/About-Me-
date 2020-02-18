@@ -1,70 +1,38 @@
-'use strict'; 
-
-var know = prompt(' Hey! Do you know me ? ').toLowerCase();
-
-if (know === 'yes') {
-    alert(' Amazing! welcome in my site ;) ');
+'use strict'
+var human = prompt("Please enter your name", "Sana");
+if (human != null) {
+  alert("hello   " + human + "   how are you today?");
 }
-else if (know === 'no') {
-    alert(' I am sanaa , WELCOME!');
+console.log(human);
+var country = prompt("Are you from jordan ? (yes or no)").toLowerCase();
+if (country == "yes") {
+  alert("I'm from jordan too , I really like u are in my page  ");
+} else if (country == "no") {
+  alert("I'm so excited to enter my web page   ");
+} /*else while (jordan !== "yes" && jordan !== "no");
+{
+  var jordan = prompt("Are you from jordan ? (yes or no)");
+}*/
+console.log(country);
+var age = prompt("tell me how old are you ?");
+if (age >= 18) {
+  alert("I'm also above 18 , I'm 23  ");
+} else {
+  alert(" you are not adult yes so be carefull when you use the internet  ");
 }
-else {
-    alert ('Oops! you dont answer , please answer next question');
-}
-console.log(know);
-
-var name = prompt('  Do you know whats my full name?');
-if (name === 'yes') {
-    alert(' GOOD! ');
-}
-else if (name === 'no') {
-    alert(' I am SANAA DAIRE , WELCOME!')
-}
-else { alert ('Oops! you dont answer , please answer next question'); }
-console.log(name);
-
-
-var age = prompt(' Do you know im 23 years ?');
-if (age === 'yes') {
-    alert(' So happy to know my age darling ');
-}
-else if (age === 'no') {
-    alert(' happy to say im 23 years old for you');
-}
-else { alert ('Oops! you dont answer , please answer next question'); }
-
 console.log(age);
-
-
-var study = prompt('Do you know what im study?');
-if (study === 'yes') {
-    alert(' well! ');
+var wish = prompt("do you want to be asoftware engineer like me ? (yes or no) ").toLowerCase();
+if (wish == "yes") {
+  alert("i advice u to study it if yr intersting in saling or maintenance  ");
+} else if (wish == "no") {
+  alert("I advice u to study coding   ");
 }
-else if (study === 'no') {
-    alert(' well! Software Engineering ')
+console.log(wish);
+var swim = prompt("tell me do u like swiming  ? (yes or no )").toLowerCase();
+if (swim == "yes") {
+  alert(" you are like me  ");
+} else if (swim == "no") {
+  alert("oooh why , its the way to get the stress out   ");
 }
-else {alert ('Oops! you dont answer , please answer next question'); }
-
-console.log(study);
-
-
-var food = prompt('Do you know whats my favourite food?');
-if (food === 'yes') {
-    alert(' AMAZING! ');
-}
-else if (food === 'no') {
-    alert(' HUMMM! i am in love with Burger  ')
-}
-else {alert ('Oops! you dont answer , please answer next question'); }
-
-console.log(food);
-
-alert(" WELCOME in my personal site Dear , i wish U interest here!");
-
-var name1 = prompt(" let me know , Whats your name ?")
-alert(" Greet Welcome  " + name1);
-
-alert(" Welcome again " + name1);
-
-
+console.log(swim);
 
