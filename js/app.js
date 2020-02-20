@@ -1,19 +1,10 @@
-<<<<<<< HEAD
-'use strict'
-var score =0 ;
-
-function humanQuestion(){
-var human = prompt('Please enter your name');
-while (human === '' ){
-    human = prompt ('Enter your name');
-=======
 'use strict';
 var score = 0;
 function humanQuestion() {
   var human = prompt('Please enter your name');
   while (human === '') {
     human = prompt('Enter your name');
->>>>>>> c088369d67ebb6f019a1f6de710350533e67e91c
+
   }
   alert(' welcome  '+ human);
  }
