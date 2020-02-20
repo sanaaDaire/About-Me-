@@ -1,5 +1,4 @@
 'use strict';
-<<<<<<< HEAD
 var score = 0;
 function humanQuestion() {
   var human = prompt('Please enter your name');
