@@ -90,16 +90,29 @@ function age1Question (){
 for( var i =0; i <4 ; i++) {
     var age1 = prompt('Guess whats my age? ');
     age1= Number(age1);
-if ( age1 === 23 ) { alert ( ' you are correctly !!')
+if ( age1 === 23 ) { alert (' you are correctly !!')
 score=score+1;
 break;
 }
-if ( age1 >25 && age1 <30 ) { alert (" high ") }
-if ( age1 <23 && age1 >20) { alert (" low ") }
+if ( age1 >=20 )  { 
+    alert (" high ") 
+}
+else if  ( age1 >=40 )  { 
+    alert (" high ") 
+}
+else if ( age1 <10  ){ 
+    alert (" low ")
+ }
+ else if  ( age1 <20 )  { 
+    alert (" low ") 
+}
+else {
+    alert(" so far")
+}
  }
 }
 age1Question(); 
-//console.log(food);
+//console.log(age1);
 
 function carQuestion(){ 
 var bestCar = ['bm' , 'gclass' , 'ford' , 'jaguar' ,'audi' , 'rangerover'];
