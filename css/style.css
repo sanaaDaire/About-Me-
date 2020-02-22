@@ -1,7 +1,7 @@
 h1{
     text-align: center;
-    background-color: powderblue;
-     color: white;
+    background-color: white;
+     color: black;
      font-family: 'Times New Roman', Times, serif;
      font-size: 300%;
      padding: 10px 20px 40px ;
@@ -10,48 +10,54 @@ h1{
 }
 
 h2{
-    text-align: left;
-    background-color: powderblue;
-     color: blue;
+    text-align: center;
+    background-color: white;
+     color:black ;
      font-family: sans-serif;
      font-size: 120%;
 }
 
 h3{
     text-align: left;
-    background-color: powderblue;
-     color: blue;
+    background-color: whitesmoke;
+     color: black;
      font-family: sans-serif;
      font-size: 120%;
 }
 
  body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
+    font-family: sans-serif;
+    font-size: 19px;
     height: 800px;
     line-height: normal;
  }
 
 p  {
-    color: red;
-    font-family: courier;
-    font-size: 160%;
+    color: whitesmoke;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 120%;
     border: 1px solid powderblue;
-    padding: 30px;
+    padding: 190px;
     text-align: left;
+    background-image: url(https://images.hdqwalls.com/wallpapers/bthumb/texture-graphic-abstract-colorful-background-y9.jpg);
   }
 
  ul li {
-    text-align: center;
+    text-align: left;
     text-decoration: none;
-    color: blue;
+    color: white;
+    background-color: powderblue;
+    list-style: decimal;
     display: none;
+    
  } 
 
  ol li {
-    list-style: decimal;
-    background: #ff9999;
-     padding: 10px;
+    
+    background:whitesmoke;
+     padding: 90px;
+     font-size: 110%;
+     text-align: center;
  }
 
  footer{ 
