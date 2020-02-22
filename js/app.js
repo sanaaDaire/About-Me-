@@ -94,22 +94,23 @@ if ( age1 === 23 ) { alert (' you are correctly !!')
 score=score+1;
 break;
 }
-if ( age1 >=20 )  { 
+if ( age1 >=30 )  { 
     alert (" high ") 
 }
 else if  ( age1 >=40 )  { 
     alert (" high ") 
 }
-else if ( age1 <10  ){ 
+else if ( age1 <=10  ){ 
     alert (" low ")
  }
- else if  ( age1 <20 )  { 
+ else if  ( age1 <=20 )  { 
     alert (" low ") 
 }
 else {
-    alert(" so far")
+    alert(" so far about the correct answer!")
 }
  }
+ alert(' My age is 23 years old');
 }
 age1Question(); 
 //console.log(age1);
@@ -132,14 +133,18 @@ for( var  a=0 ; a <=5 ; a++) {
         }
     
 }      
+    
          if ( time ===6) {
-            alert('try again');
+            alert('Try Again');
             myFav = prompt ( ' Guess whats my favourite car?');
             time = 0;   } 
         
         else {
             break;
-        }}
+            
+        }
+    }
+    alert('My Favourit car is BMW');
         document.write(bestCar);
     }
         carQuestion();
