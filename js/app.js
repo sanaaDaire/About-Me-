@@ -127,11 +127,11 @@ for( var  a=0 ; a <=5 ; a++) {
         else {
             break;
         }}
+        document.write(bestCar);
     }
         carQuestion();
 
     document.write(score);
-    document.write(bestCar);
 
 
 
