@@ -1,88 +1,111 @@
 h1{
     text-align: center;
     background-color: white;
-     color: black;
-     font-family: 'Times New Roman', Times, serif;
-     font-size: 300%;
+     color: rgb(104, 103, 103);
+     font-family: 'Comfortaa', cursive;
+     font-size: 40px;
      padding: 10px 10px 10px ;
      position: sticky;
      top: 0;
-    
-
-}
-
-h2{
-    text-align: center;
-    background-image: url(https://images.assetsdelivery.com/compings_v2/ponsuwan/ponsuwan1210/ponsuwan121000082.jpg);
-     color:black ;
-     font-family: 'Times New Roman', Times, serif;
-     font-size: 300%;
-     font-weight: bold;
-     padding-bottom: 25px;
-}
-
-h3{
-    text-align: center;
-    background-color: whitesmoke;
-     color: black;
-     font-family: sans-serif;
-     font-size: 300%;
-     font-weight: bold;
-     padding-bottom: 25px;
+     border-style: solid;
+     border-width: 1pt;
      
+    
+
 }
 
- body {
-    font-family: sans-serif;
-    font-size: 19px;
-    height: 800px;
-    line-height: normal;
-    
- }
-
-p  {
-    color: whitesmoke;
-    font-family: 'Arial Narrow Bold', sans-serif;
-    font-size: 120%;
-    border: 1px solid powderblue;
-    padding: 190px;
-    text-align: left;
-    line-height: 27px;
-    background-image: url(https://images.hdqwalls.com/wallpapers/bthumb/texture-graphic-abstract-colorful-background-y9.jpg);
-  }
-
- nav ul li {
-    background-image: url(https://images.assetsdelivery.com/compings_v2/ponsuwan/ponsuwan1210/ponsuwan121000082.jpg);
-    padding: 10px;
-    font-size: 110%;
-    text-align: center;
-    list-style: square;
-    border-collapse: collapse;
-   border-spacing: 0;
+ img{
+   padding-top: 70px;
+   padding-left: 36%;
+   height: 80%;
+   width: 30%;
+   border-radius: 3%;
    
+ }
+
+
+ .all{
+   line-height: 50px;
+   position: relative;
+   display: block;
+   text-align: left;
+   font-size: 25px;
+   height: 10px;
+   padding-left: 36%;
+   text-decoration: underline;
+   font-family: 'Comfortaa', cursive;
+   opacity: 0.8;
+   color: black;
+   
+   
+   
+   
+ }
+
+ .etc{
+
+   font-size: 30px;
+   text-align: initial;
+   line-height: 50px;
+   height: 50px;
+   padding: 50px;
+   color: black;
+   font-family: 'Comfortaa', cursive;
+   
+
+ }
+
+ .footer{
+
+   text-align: center;
+   font-size: 20px;
+   
+ }
+ .lot{
+font-size: 30px;
+text-align: left;
+line-height: 10px;
+font-family: 'Comfortaa', cursive;
+color: black;
+
+ }
+
+ body{
+    background-color: white;
+   
+ }
+ .fa-facebook {
+   background: #3B5998;
+   color: white;
+   
+ }
+ .fa-snapchat {
+   background: rgb(241, 217, 0);
+   color: white;
+   padding-left: 10px;
+   padding-right: 10px;
 }
-
- ol li {
-    
-    background:whitesmoke;
-     padding: 90px;
-     font-size: 110%;
-     text-align: center;
-     list-style: none;
-     border-collapse: collapse;
-	border-spacing: 0;
+ .fa-instagram {
+   background: rgb(192, 31, 106);
+   color: white;
+ }
+ .fa-whatsapp {
+   background: rgb(84, 201, 68);
+   color: white;
  }
 
- footer{ 
-
-  width: 100%;
-  background-image: url(https://images.assetsdelivery.com/compings_v2/ponsuwan/ponsuwan1210/ponsuwan121000082.jpg);
-  color: blue;
-  text-align: center;
-  padding: 90px;
-     list-style: none;
-     border-collapse: collapse;
-    border-spacing: 0;
-    font-size: 20px;
-
+ .fa {
+   padding: 50px;
+   font-size: 20px;
+   width: 50px;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 50%;
+   margin: 30px 30px 30px 30px !important;
+   text-align: center;
+   
  }
+ .fa:hover {
+   opacity: 0.7;
+ }
+
