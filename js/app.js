@@ -1,48 +1,48 @@
-// 'use strict';
-// var score = 0;
-// function humanQuestion() {
-//   var human = prompt('Please enter your name');
-//   while (human === '') {
-//     human = prompt('Enter your name');
+'use strict';
+var score = 0;
+function humanQuestion() {
+  var human = prompt('Firstly , Let me know whats your name?');
+  while (human === '') {
+    human = prompt('Enter your name');
 
-//   }
-//   alert(' welcome  '+ human);
-//  }
-//  humanQuestion (); 
-// //console.log(human);
+  }
+  alert('WELCOME '+ human);
+ }
+ humanQuestion (); 
+//console.log(human);
 
-// function knowQuestion(){
-// var know = prompt('Hey! Do you know me ? (yes or no)').toLowerCase();
-// while (know === '' ){
-//     know = prompt ('Please Answer');
-// }
-// if (know === 'yes' || know === 'y') {
-//   alert('Amazing! welcome in my site');
-//   score=score+1;
-// } else if (know === 'no' || know === 'n') {
-//   alert('im so excited to enter my web page ');
-//   } 
-// }
-// knowQuestion();
-// //console.log(know);
+function knowQuestion(){
+var know = prompt('Hey!Do you know me? (yes or no)').toLowerCase();
+while (know === '' ){
+    know = prompt ('Please Answer');
+}
+if (know === 'yes' || know === 'y') {
+  alert('Amazing! welcome in my Site');
+  score=score+1;
+} else if (know === 'no' || know === 'n') {
+  alert('I am so excited to enter my web page ');
+  } 
+}
+knowQuestion();
+//console.log(know);
 
-// function ageQuestion(){
-// var age = prompt('DO you know my age ? (yes or no)').toLowerCase();
-// while (age === '' ){
-//     age = prompt ('Please Answer');
-// }
-// if (age === 'yes' || age ==='y') {
-//   alert('YES! Great ');
-//   score=score+1;
-// } else if (age  === 'no' || age === 'n') {
-//   alert(' Iam 23! ');
-//  }
-// }
-// ageQuestion(); 
-// //console.log(age);
+function ageQuestion(){
+var age = prompt('Do you know my age ? (yes or no)').toLowerCase();
+while (age === '' ){
+    age = prompt ('Please Answer');
+}
+if (age === 'yes' || age ==='y') {
+  alert('YES! Great ');
+  score=score+1;
+} else if (age  === 'no' || age === 'n') {
+  alert(' I am 23! ');
+ }
+}
+ageQuestion(); 
+//console.log(age);
 
 // function wishQuestion(){
-// var wish = prompt('do you know if i am study a software engineer  ? (yes or no) ').toLowerCase();
+// var wish = prompt('do you know if i am software engineer  ? (yes or no) ').toLowerCase();
 // while (wish === '' ){
 //     wish = prompt ('Please Answer');
 // }
@@ -54,7 +54,7 @@
 //  }
 // }
 // wishQuestion ();
-//  //console.log(wish);
+ //console.log(wish);
 
 //  function swimQuestion(){
 // var swim = prompt('tell me do u know if i like swiming  ? (yes or no )').toLowerCase();
@@ -120,7 +120,7 @@
 // var myFav = prompt ( ' Guess whats my favourite car?');
 // var time = 0;
 
-// for( var  a=0 ; a <=5 ; a++) {
+// for( var  a=0 ; a <=2 ; a++) {
 
 //     for( var x =0 ; x <6 ; x++){
 //         if ( myFav === bestCar [x]) {
@@ -134,7 +134,7 @@
     
 // }      
     
-//          if ( time ===6) {
+//          if ( time ===2) {
 //             alert('Try Again');
 //             myFav = prompt ( ' Guess whats my favourite car?');
 //             time = 0;   } 
