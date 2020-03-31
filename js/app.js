@@ -1,12 +1,12 @@
 'use strict';
 var score = 0;
 function humanQuestion() {
-  var human = prompt('Firstly , Let me know whats your name?');
+  var human = prompt('Firstly, Let me know whats your name?');
   while (human === '') {
     human = prompt('Enter your name');
 
   }
-  alert('WELCOME '+ human);
+  alert('WELCOME'+ human);
  }
  humanQuestion (); 
 //console.log(human);
@@ -17,10 +17,10 @@ while (know === '' ){
     know = prompt ('Please Answer');
 }
 if (know === 'yes' || know === 'y') {
-  alert('Amazing! welcome in my Site');
+  alert('Amazing!Welcome In My Site');
   score=score+1;
 } else if (know === 'no' || know === 'n') {
-  alert('I am so excited to enter my web page ');
+  alert('I Am So Excited To Enter My Web Page ');
   } 
 }
 knowQuestion();
