@@ -12,7 +12,7 @@ function humanQuestion() {
 //console.log(human);
 
 function knowQuestion(){
-var know = prompt('Hey!Do you know me? (yes or no)').toLowerCase();
+var know = prompt('Do you know me? (yes or no)').toLowerCase();
 while (know === '' ){
     know = prompt ('Please Answer');
 }
