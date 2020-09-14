@@ -1,30 +1,30 @@
-'use strict';
-var score = 0;
-function humanQuestion() {
-  var human = prompt('Firstly, Let me know whats your name?');
-  while (human === '') {
-    human = prompt('Enter your name');
+// 'use strict';
+// var score = 0;
+// function humanQuestion() {
+//   var human = prompt('Firstly, Let me know whats your name?');
+//   while (human === '') {
+//     human = prompt('Enter your name');
 
-  }
-  alert('WELCOME '+ human);
- }
- humanQuestion (); 
-//console.log(human);
+//   }
+//   alert('WELCOME '+ human);
+//  }
+//  humanQuestion (); 
+// //console.log(human);
 
-function knowQuestion(){
-var know = prompt('Do you know me? (yes or no)').toLowerCase();
-while (know === '' ){
-    know = prompt ('Please Answer');
-}
-if (know === 'yes' || know === 'y') {
-  alert('Amazing!Welcome In My Site');
-  score=score+1;
-} else if (know === 'no' || know === 'n') {
-  alert('I Am So Excited To Enter My Web Page ');
-  }
-   else { alert ( 'U are WELCOME!' );}
-}
-knowQuestion();
+// function knowQuestion(){
+// var know = prompt('Do you know me? (yes or no)').toLowerCase();
+// while (know === '' ){
+//     know = prompt ('Please Answer');
+// }
+// if (know === 'yes' || know === 'y') {
+//   alert('Amazing!Welcome In My Site');
+//   score=score+1;
+// } else if (know === 'no' || know === 'n') {
+//   alert('I Am So Excited To Enter My Web Page ');
+//   }
+//    else { alert ( 'U are WELCOME!' );}
+// }
+// knowQuestion();
 //console.log(know);
 
 // function ageQuestion(){
